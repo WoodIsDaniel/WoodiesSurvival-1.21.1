@@ -1,4 +1,6 @@
 {
-  "item.woodiessurvival.ruby": "Ruby"
-
+  "creativetab.woodiessurvival.gem_items": "Gems",
+  "item.woodiessurvival.ruby": "Ruby",
+  "item.woodiessurvival.sapphire": "Sapphire",
+  "item.woodiessurvival.topaz": "Topaz"
 }

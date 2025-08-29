@@ -11,6 +11,10 @@ public class ModItems {
 
     public static final DeferredItem<Item> RUBY = ITEMS.register("ruby",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SAPPHIRE = ITEMS.register("sapphire",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> TOPAZ = ITEMS.register("topaz",
+            () -> new Item(new Item.Properties()));
 
     public static void  register(IEventBus eventBus) {
         ITEMS.register(eventBus);

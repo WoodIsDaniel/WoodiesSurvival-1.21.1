@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "woodiessurvival:item/gem/ruby"
+    "layer0": "woodiessurvival:item/gem/sapphire"
   }
 }
