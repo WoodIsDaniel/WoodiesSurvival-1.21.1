@@ -7,5 +7,7 @@
   "block.woodiessurvival.quartz_ore": "Quartz Ore",
   "block.woodiessurvival.ruby_ore": "Ruby Ore",
   "block.woodiessurvival.sapphire_ore": "Sapphire Ore",
-  "block.woodiessurvival.topaz_ore": "Topaz Ore"
+  "block.woodiessurvival.topaz_ore": "Topaz Ore",
+  "item.woodiessurvival.steel_ingot": "Steel Ingot",
+  "item.woodiessurvival.steel_powder": "Steel Powder"
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "woodiessurvival:item/metal/steel_powder"
+  }
+}

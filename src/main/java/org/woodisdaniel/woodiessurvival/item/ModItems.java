@@ -16,6 +16,11 @@ public class ModItems {
     public static final DeferredItem<Item> TOPAZ = ITEMS.register("topaz",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> STEEL_POWDER = ITEMS.register("steel_powder",
+            () -> new Item(new Item.Properties()));
+
     public static void  register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
