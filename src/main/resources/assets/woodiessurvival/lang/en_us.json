@@ -2,5 +2,10 @@
   "creativetab.woodiessurvival.gem_items": "Gems",
   "item.woodiessurvival.ruby": "Ruby",
   "item.woodiessurvival.sapphire": "Sapphire",
-  "item.woodiessurvival.topaz": "Topaz"
+  "item.woodiessurvival.topaz": "Topaz",
+  "block.woodiessurvival.amethyst_ore": "Amethyst Ore",
+  "block.woodiessurvival.quartz_ore": "Quartz Ore",
+  "block.woodiessurvival.ruby_ore": "Ruby Ore",
+  "block.woodiessurvival.sapphire_ore": "Sapphire Ore",
+  "block.woodiessurvival.topaz_ore": "Topaz Ore"
 }

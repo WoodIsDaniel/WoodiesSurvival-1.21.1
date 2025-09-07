@@ -17,6 +17,7 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import org.woodisdaniel.woodiessurvival.block.ModBlocks;
 import org.woodisdaniel.woodiessurvival.item.ModCreativeModeTabs;
 import org.woodisdaniel.woodiessurvival.item.ModItems;
 
@@ -38,6 +39,7 @@ public class WoodiesSurvival {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         ModCreativeModeTabs.register(modEventBus);
 
