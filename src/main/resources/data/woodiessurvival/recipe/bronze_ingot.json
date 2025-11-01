@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "woodiessurvival:tin_ingot"
+    },
+    "X": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "woodiessurvival:bronze_ingot"
+  }
+}

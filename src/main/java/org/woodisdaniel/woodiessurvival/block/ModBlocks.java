@@ -23,15 +23,13 @@ public class ModBlocks {
     public static final DeferredBlock<Block> QUARTZ_ORE = registerBlock("quartz_ore",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-    public static final DeferredBlock<Block> RUBY_ORE = registerBlock("ruby_ore",
+    public static final DeferredBlock<Block> TIN_ORE = registerBlock("tin_ore",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-    public static final DeferredBlock<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore",
+    public static final DeferredBlock<Block> SILVER_ORE = registerBlock("silver_ore",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.STONE)));
-    public static final DeferredBlock<Block> TOPAZ_ORE = registerBlock("topaz_ore",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
 
     private static <T extends Block> DeferredBlock<T> registerBlock (String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

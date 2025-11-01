@@ -9,16 +9,12 @@ import org.woodisdaniel.woodiessurvival.WoodiesSurvival;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(WoodiesSurvival.MOD_ID);
 
-    public static final DeferredItem<Item> RUBY = ITEMS.register("ruby",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> SAPPHIRE = ITEMS.register("sapphire",
-            () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> TOPAZ = ITEMS.register("topaz",
-            () -> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+    public static final DeferredItem<Item> TIN_INGOT = ITEMS.register("tin_ingot",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> STEEL_POWDER = ITEMS.register("steel_powder",
+    public static final DeferredItem<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
             () -> new Item(new Item.Properties()));
 
     public static void  register(IEventBus eventBus) {

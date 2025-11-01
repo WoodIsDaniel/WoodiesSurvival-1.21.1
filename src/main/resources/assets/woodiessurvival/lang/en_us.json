@@ -1,13 +1,10 @@
 {
   "creativetab.woodiessurvival.gem_items": "Gems",
-  "item.woodiessurvival.ruby": "Ruby",
-  "item.woodiessurvival.sapphire": "Sapphire",
-  "item.woodiessurvival.topaz": "Topaz",
   "block.woodiessurvival.amethyst_ore": "Amethyst Ore",
   "block.woodiessurvival.quartz_ore": "Quartz Ore",
-  "block.woodiessurvival.ruby_ore": "Ruby Ore",
-  "block.woodiessurvival.sapphire_ore": "Sapphire Ore",
-  "block.woodiessurvival.topaz_ore": "Topaz Ore",
-  "item.woodiessurvival.steel_ingot": "Steel Ingot",
-  "item.woodiessurvival.steel_powder": "Steel Powder"
+  "block.woodiessurvival.tin_ore": "Tin Ore",
+  "block.woodiessurvival.silver_ore": "Silver Ore",
+  "item.woodiessurvival.tin_ingot": "Tin Ingot",
+  "item.woodiessurvival.silver_ingot": "Silver Ingot",
+  "item.woodiessurvival.bronze_ingot": "Bronze Ingot"
 }

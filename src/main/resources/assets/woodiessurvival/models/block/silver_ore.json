@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "woodiessurvival:block/ore/sapphire_ore"
+    "all": "woodiessurvival:block/ore/silver_ore"
   }
 }

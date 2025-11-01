@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "woodiessurvival:item/metal/steel_ingot"
+    "layer0": "woodiessurvival:item/metal/silver_ingot"
   }
 }
