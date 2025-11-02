@@ -32,7 +32,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.AMETHYST_ORE);
                         output.accept(ModBlocks.QUARTZ_ORE);
                         output.accept(Blocks.LAPIS_ORE);
-//                      output.accept(ModItems.SAPPHIRE);
+
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> METALS_TAB = CREATIVE_MODE_TAB.register("metals_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BRONZE_INGOT.get()))
+                    .title(Component.translatable("creativetab.woodiessurvival.metal_items"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.TIN_INGOT);
+                        output.accept(ModItems.SILVER_INGOT);
+                        output.accept(ModItems.BRONZE_INGOT);
+                        output.accept(ModBlocks.TIN_ORE);
+                        output.accept(ModBlocks.SILVER_ORE);
 
                     }).build());
 

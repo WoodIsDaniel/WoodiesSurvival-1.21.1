@@ -10,10 +10,10 @@
     }
   },
   "pattern": [
-    "#X"
+    "#XX"
   ],
   "result": {
-    "count": 1,
+    "count": 2,
     "id": "woodiessurvival:bronze_ingot"
   }
 }
